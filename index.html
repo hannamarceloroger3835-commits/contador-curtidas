@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ept-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App 1 - contador de curtidas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="post">
+      <header class="post-topo">
+        <div class="avatar">😍</div>
+        <div>
+          <strong>@emoj_feliz</strong>
+          <p class="hora">há 5 minutos</p>
+        </div>
+      </header>
+      <div class="post-imagem">💖</div>
+      <p class="post-texto">o coração e lindo e brilhante.</p>
+      <div class="acoes">
+        <button id="botao-curtir" class="botao-curtir">💗 curtir</button>
+
+        <button id="botao-zerar" class="botao-zerar">Zerar</button>
+      </div>
+      <p class="contagem"><span id="curtidas">0</span> curtidas</p>
+      <p id="mensagem" class="mensagem"></p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
